@@ -1,0 +1,14 @@
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.cursorBlinking": "expand",
+    "editor.linkedEditing": true,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "editor.smoothScrolling": true,
+}
