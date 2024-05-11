@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+.header {
+    height: 250px;
+    margin-bottom: 30px;
+    background-color: #505050;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 40px 10px 0;
+}
+
+header p {
+    font-size: 16px;
+    
+}
+
+.header img {
+    transform: translateY(80px);
+    width: 200px;
+    border-radius: 50%;
+    border: solid 2px #ffffff;
+}
+
+main{
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.seccion {
+    margin: auto;
+    padding: 90px 100px 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    box-shadow: 1px 1px 12px #5555;
+    text-align: center;
+}
+
+
+.iconos {
+    padding: 20px 0;
+    color: #a1a1a1;
+    font-size: 24px;
+    
+}
+
+.iconos i {
+    margin: 0 5px;
+    
+}
+
+article {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.btns button {
+    padding: 10px 20px;
+    margin: 0 20px;
+    background-color: rgb(63, 38, 190);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px #5555;
+
+}
+
+.experiencia h2 {   
+    text-align: center;
+    padding: 20px 0;
+    color:#7c7b7b;
+}
+
+.container-experiencia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 55px;
+    
+}
+
+.elementos { 
+    box-shadow: 1px 1px 12px #5555;
+}
+
+
+.elementos h3 {
+    color: #ffffff;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #505050;
+}
+
+.info-extra {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.titulo, .data {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.separador-uno {
+    padding: 0 50px;
+    
+}
+
+.separador-uno .elementos {
+    margin-bottom: 30px;
+}
+
+separador-dos {
+    padding: 0 50px;
+}
+
+.separador-dos .elementos {
+    margin-bottom: 30px;
+}
