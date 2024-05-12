@@ -10,7 +10,6 @@
 
 .header {
     height: 250px;
-    margin-bottom: 30px;
     background-color: #505050;
     text-align: center;
     color: aliceblue;
@@ -19,6 +18,10 @@
 h1 {
     font-size: 32px;
     padding: 40px 10px 0;
+}
+
+p .intro {
+    font-size: x-small;
 }
 
 header p {
@@ -69,12 +72,16 @@ article {
 .btns button {
     padding: 10px 20px;
     margin: 0 20px;
-    background-color: rgb(63, 38, 190);
+    background-color: rgb(54, 27, 188);
     border: none;
     color: #ffffff;
     cursor: pointer;
     box-shadow: 1px 1px 12px #5555;
+}
 
+.btns button:hover {
+    color: #ffffff;
+    background-color: rgb(86, 138, 235);
 }
 
 .experiencia h2 {   
@@ -103,9 +110,19 @@ article {
     background-color: #505050;
 }
 
+h4 { 
+    padding: 30px 0 10px;
+    font-size: 95%;
+    
+}
+
 .info-extra {
     padding: 20px;
     background-color: #fafafa;
+}
+.info-extra ul {
+    list-style: none;
+    padding: 10px 0 ;
 }
 
 .titulo, .data {
@@ -129,3 +146,5 @@ separador-dos {
 .separador-dos .elementos {
     margin-bottom: 30px;
 }
+
+
